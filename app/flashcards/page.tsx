@@ -6,7 +6,6 @@ import DashboardLayout from '@/components/dashboard-layout';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Progress } from '@/components/ui/progress';
 import { RotateCcw, Brain, Check, X, Sparkles, Trash2, AlertTriangle } from 'lucide-react';
 import { toast } from 'sonner';
 import {
@@ -279,7 +278,12 @@ export default function Flashcards() {
                     </div>
                   </div>
                 </div>
-                <Progress value={progress} className="h-2" />
+                <div className="w-full bg-gray-200 rounded-full h-2">
+                  <div 
+                    className="bg-primary h-2 rounded-full transition-all duration-300" 
+                    style={{ width: `${progress}%` }}
+                  ></div>
+                </div>
               </CardContent>
             </Card>
 
