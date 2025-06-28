@@ -4,6 +4,12 @@ RevisionAI is an AI-powered study and revision tool that helps you organize your
 
 ---
 
+## 🔗 Deployed Here
+
+Access the live app at: [https://revise-ai-y9le.vercel.app/)
+
+---
+
 ## 🚀 Features
 
 - **AI Flashcard Generation**: Automatically generate flashcards from your notes using advanced AI (Gemini API).
