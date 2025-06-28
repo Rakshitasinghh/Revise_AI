@@ -16,8 +16,18 @@ import { toast } from 'sonner';
 
 // TODO: Create app/subjects/[id]/page.tsx for subject details, file upload, and chat features
 
+type Subject = {
+  _id?: string;
+  name: string;
+  description?: string;
+  difficulty?: string;
+  topics?: any[];
+  flashcards?: any[];
+  createdAt?: string;
+};
+
 export default function Subjects() {
-  const [subjects, setSubjects] = useState([]);
+  const [subjects, setSubjects] = useState<Subject[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isCreating, setIsCreating] = useState(false);
   const [dialogOpen, setDialogOpen] = useState(false);
