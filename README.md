@@ -1,6 +1,6 @@
 # RevisionAI - Smart Study Companion
 
-RevisionAI is an AI-powered study and revision tool that helps you organize your learning, generate personalized flashcards, and track your progress. Built with Next.js, MongoDB, and modern UI libraries, it offers a seamless, dark-mode-enabled experience for students and lifelong learners. 
+RevisionAI is an AI-powered study and revision tool that helps you organize your learning, generate personalized flashcards, and track your progress. Built with Next.js, MongoDB, and modern UI libraries, it offers a seamless, dark-mode-enabled experience for students and lifelong learners. (follow up the instructions to explore all features)
 
 ---
 
@@ -72,6 +72,8 @@ RevisionAI is an AI-powered study and revision tool that helps you organize your
 ### 7️⃣ AI Assistant
 - From the **☰ menu**, open **AI Assistant**
 - Ask for study tips, productivity hacks, or even request a personalized study plan!
+  
+---
 
 ## 🛠️ Tech Stack
 
