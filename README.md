@@ -1,12 +1,6 @@
 # RevisionAI - Smart Study Companion
 
-RevisionAI is an AI-powered study and revision tool that helps you organize your learning, generate personalized flashcards, and track your progress. Built with Next.js, MongoDB, and modern UI libraries, it offers a seamless, dark-mode-enabled experience for students and lifelong learners.
-
----
-
-## 🔗 Deployed Here
-
-Access the live app at: [https://revise-ai-y9le.vercel.app//)
+RevisionAI is an AI-powered study and revision tool that helps you organize your learning, generate personalized flashcards, and track your progress. Built with Next.js, MongoDB, and modern UI libraries, it offers a seamless, dark-mode-enabled experience for students and lifelong learners. 
 
 ---
 
@@ -23,6 +17,61 @@ Access the live app at: [https://revise-ai-y9le.vercel.app//)
 - **Responsive Design**: Works great on desktop and mobile.
 
 ---
+## 📝 Usage
+
+- **Sign up / Log in** using the same credentials.
+- **Dashboard**: Add topics you've learned today to build your daily streak.
+- Click the **☰ icon** (top left) → **Subjects** to organize your notes.
+- **Upload a PDF** to your favorite subject.
+- Once added, click on the subject → scroll to **ADD A TOPIC**.
+  - Enter the topic title (e.g., Regression)
+  - Paste your topic content.
+  - Ask questions like "What is regression in concise?" to chat with AI about your notes.
+- To generate flashcards:
+  - Click **☰** → **Flashcards** → Generate Flashcards.
+- Visit the **Curiosity Hub** to explore study facts, recall methods, and ask the AI assistant for learning tips and tricks.
+
+---
+
+## 📘 Instructions
+
+### 1️⃣ Sign Up and Log In
+- Visit the homepage and sign up.
+- Then log in using the same credentials to access your personal dashboard.
+
+### 2️⃣ Navigate Using the ☰ Menu
+- Click the **☰ icon** in the top-left corner to access the main sections:
+  - **Dashboard**
+  - **Subjects**
+  - **Flashcards**
+  - **Curiosity Hub**
+  - **AI Assistant**
+
+### 3️⃣ Dashboard and Daily Streak
+- Inside the dashboard, you can add what you learned today.
+- This maintains your **daily learning streak**.
+
+### 4️⃣ Subjects → Upload and Organize
+- In the **Subjects** section:
+  - Add a new subject (e.g., “Machine Learning”).
+  - Upload a **PDF** of your notes.
+  - Click on the subject to view its content.
+  - Scroll to the **ADD A TOPIC** section:
+    - Enter the topic name (e.g., Regression)
+    - Paste the topic content
+    - Now chat with the AI to ask questions like “What is regression in concise?”
+
+### 5️⃣ Flashcard Generator
+- Open the **☰ menu** → Click **Flashcards**
+- Click **Generate Flashcards** to get AI-powered flashcards from your notes
+
+### 6️⃣ Curiosity Hub
+- From the **☰ menu**, go to **Curiosity Hub**
+- Explore exciting facts, recall techniques, and science of learning
+
+### 7️⃣ AI Assistant
+- From the **☰ menu**, open **AI Assistant**
+- Ask for study tips, productivity hacks, or even request a personalized study plan!
 
 ## 🛠️ Tech Stack
 
@@ -67,18 +116,6 @@ Access the live app at: [https://revise-ai-y9le.vercel.app//)
    yarn dev
    ```
    The app will be available at [http://localhost:3000](http://localhost:3000)
-
----
-
-## 📝 Usage
-
-- **Sign up / Log in** to create your account.
-- **Create Subjects** and upload notes (PDF or TXT).
-- **Generate AI Flashcards** for your topics.
-- **Review flashcards** using spaced repetition.
-- **Chat with your notes** for instant Q&A.
-- **Track your progress** on the dashboard.
-- **Switch between light and dark mode** using the toggle in the header.
 
 ---
 
